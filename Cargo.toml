@@ -29,7 +29,7 @@ base64 = "0.21.7"
 hmac = "0.12" # Note: hmac might not be directly needed if using ed25519 directly, but keeping as per plan.
 hex = "0.4"
 chrono = "0.4"
-zeroize = "=1.3.0"
+zeroize = "1.8.0"
 bs58 = "0.5"
 serde_qs = "0.13"
 tokio-tungstenite = { version = "0.17", features = ["rustls-tls-native-roots"] }
